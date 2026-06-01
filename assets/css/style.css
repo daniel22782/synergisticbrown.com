@@ -1,0 +1,48 @@
+/* Synergistic Brown™ — because your brand deserves the same energy as a conference room wall */
+
+:root {
+    --synergistic-brown: #7A5F3A;
+    --executive-greige: #C7B8A2;
+    --operational-taupe: #8E7C6A;
+    --middle-manager-sand: #D9CBB8;
+    --compliance-gray: #4F4F4F;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", sans-serif;
+    background-color: var(--middle-manager-sand);
+    color: var(--compliance-gray);
+}
+
+header {
+    background-color: var(--synergistic-brown);
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+.tagline {
+    font-style: italic;
+    opacity: 0.9;
+}
+
+h2 {
+    color: var(--synergistic-brown);
+}
+
+section {
+    padding: 1.5rem 2rem;
+    background-color: var(--executive-greige);
+    margin: 1rem;
+    border-left: 8px solid var(--operational-taupe);
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--synergistic-brown);
+    color: white;
+    font-size: 0.9rem;
+}
