@@ -46,3 +46,21 @@ footer {
     color: white;
     font-size: 0.9rem;
 }
+
+.nav {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    padding: 1rem;
+    background-color: var(--operational-taupe);
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
